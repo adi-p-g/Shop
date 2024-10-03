@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Logincss.css" type="text/css">
+    <script src="Loginjs.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="login-container">
+            <h1>Login</h1>
+            <hr>
+            <form name="form1">
+                <label for="username">User name</label>
+                <input type="text" name="username" id="username" required>
+                <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <br><br>
+
+                <!-- Two buttons for login types -->
+                <button type="button" onclick="adminLogin()">Admin Login</button>
+                <button type="button" onclick="userLogin()">User Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
